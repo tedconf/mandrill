@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Brian Getting"]
   s.date = "2012-04-03"
   s.description = "Ruby gem for interacting with the Mandrill API."
-  s.email = "brian@terra-firma-design.com"
+  s.email = "brian@tatem.ae"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"

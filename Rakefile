@@ -15,11 +15,11 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "mandrill"
-  gem.homepage = "http://github.com/terra-firma/mandrill"
+  gem.homepage = "http://github.com/tatemae-consultancy/mandrill"
   gem.license = "MIT"
   gem.summary = %Q{Ruby gem for interacting with the Mandrill API.}
   gem.description = %Q{Ruby gem for interacting with the Mandrill API.}
-  gem.email = "brian@terra-firma-design.com"
+  gem.email = "brian@tatem.ae"
   gem.authors = ["Brian Getting"]
   # dependencies defined in Gemfile
 end
