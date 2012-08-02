@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "mandrill"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Getting"]
-  s.date = "2012-04-03"
+  s.date = "2012-08-02"
   s.description = "Ruby gem for interacting with the Mandrill API."
   s.email = "brian@tatem.ae"
   s.extra_rdoc_files = [
@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     ".rvmrc",
+    ".travis.yml",
     "Gemfile",
     "Gemfile.lock",
     "Guardfile",
@@ -34,7 +35,7 @@ Gem::Specification.new do |s|
     "spec/mandrill/mandrill_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/terra-firma/mandrill"
+  s.homepage = "http://github.com/tatemae-consultancy/mandrill"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
