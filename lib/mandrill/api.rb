@@ -68,7 +68,7 @@ module Mandrill
       req_endpoint = "#{API_URL}/#{@config[:api_version]}/#{api_method.to_s}/#{args.first.to_s}.#{@config[:format]}"
       req_body = {:key => @api_key}
       req_body.merge!(args.last) if args.last.is_a?(Hash)
-      @response = HTTPI.post(req_endpoint, req_body)
+      @response = HTTPI.post(req_endpoint, req_body.to_json.to_s)
     end
     
     class Error < StandardError
