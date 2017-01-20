@@ -73,3 +73,12 @@ As you can see, we are saving the key that Mandrill returns for the currently lo
 
 Copyright (c) 2011 Terra Firma Design & Consulting. See LICENSE.txt for further details.
 
+Tag for hackweek glossary: 
+
+<!--- project_def -->
+Mandrill is a Ruby gem that provides a wrapper for interacting with the Mandrill API. Remember that Mandrill has an excellent SMTP Headers API, which is often a better integration option, particularly if your app sends emails.
+
+Vertical: Conferences
+
+Related links: https://github.com/tedconf/mandrill
+<!--- /project_def -->
