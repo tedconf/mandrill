@@ -73,5 +73,17 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<simplecov>, [">= 0.6.1"])
     s.add_dependency(%q<rspec>, [">= 2.8.0"])
   end
+
+  # Prevent pushing this gem to RubyGems.org.
+  # allow pushing only to our private gem server.
+  if s.respond_to?(:metadata)
+    s.metadata['allowed_push_host'] = 'https://rubygems.ted.com/private'
+  else
+    raise 'RubyGems 2.0 or newer is required to protect against ' \
+      'public gem pushes.'
+  end
+  # 1.15.0 is the first version that supports `gem push --key`
+  # earlier versions of bundler won't be able to authenticate correctly
+  s.add_development_dependency 'bundler', '>=1.15.0'
 end
 
